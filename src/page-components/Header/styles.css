@@ -1,0 +1,32 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    padding: 10px 40px;
+}
+
+.header_title {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.header_navs {
+    display: flex;
+}
+
+.navs {
+    margin-left: 24px;
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 18px;
+
+    &:hover {
+        margin-bottom: -1px;
+        border-bottom: 1px solid #737373;
+    }
+}
+
+.active {
+    border-bottom: 1px solid blue;
+}

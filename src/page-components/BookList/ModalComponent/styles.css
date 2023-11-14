@@ -1,0 +1,55 @@
+.modal_container {
+    display: flex;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.detail {
+    margin: 12px 0;
+}
+
+.detail_header {
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.desc {
+    color: #888888;
+}
+
+.add_to_cart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+
+.added_to_cart {
+    background-color: #4cd038;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    &:hover {
+        background-color: #dedede;
+        cursor: not-allowed;
+    }
+}

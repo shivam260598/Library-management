@@ -1,0 +1,18 @@
+.author_container {
+    background: #fff;
+    width: 96%;
+	padding: 16px 30px;
+	border-radius: 8px;
+}
+
+.name_container {
+    font-weight: 500;
+    font-size: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid #dedede;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #d3d3d3;
+    }
+}

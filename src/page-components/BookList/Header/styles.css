@@ -1,0 +1,10 @@
+.filter_container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.select_container {
+    width: 150px;
+    height: 32px;
+}

@@ -1,0 +1,22 @@
+.products {
+    width: 100%;
+    display: flex;
+}
+
+.products_right {
+    display: flex;
+    justify-content: center;
+}
+
+.black {
+	font-size: 14px;
+	font-weight: 600;
+	color: #221f20;
+    margin-left: 0;
+}
+
+.table_column {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
